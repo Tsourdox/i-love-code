@@ -36,6 +36,10 @@ h1 {
     font-weight: 300;
 }
 
+main {
+    margin-top: var(--header-height);
+}
+
 /* REUSABLE CLASSES */
 .flex { display: flex; }
 .column { flex-direction: column; }
@@ -43,3 +47,4 @@ h1 {
 .align-center { align-items: center; }
 .padded { padding: .5rem; }
 .padded-2 { padding: 1rem; }
+.pointer { cursor: pointer; }
