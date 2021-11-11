@@ -36,6 +36,13 @@ h1 {
     font-weight: 300;
 }
 
+.corner {
+    right: 0.2rem;
+    bottom: 0.3rem;
+    font-size: 1.1rem;
+    text-shadow: 0 0 0.1rem #1C1C1C, 0 0 0.2rem #1C1C1C, 0 0 0.4rem #1C1C1C;
+}
+
 main {
     margin-top: var(--header-height);
 }
@@ -48,3 +55,5 @@ main {
 .padded { padding: .5rem; }
 .padded-2 { padding: 1rem; }
 .pointer { cursor: pointer; }
+.relative { position: relative; }
+.absolute { position: absolute; }
