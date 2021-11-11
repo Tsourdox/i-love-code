@@ -36,6 +36,10 @@ h1 {
     font-weight: 300;
 }
 
+.material-icons {
+    font-size: 1.5rem;
+}
+
 .corner {
     right: 0.2rem;
     bottom: 0.3rem;
