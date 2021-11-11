@@ -1,3 +1,7 @@
+:root {
+    --header-height: 4rem;
+}
+
 * {
     box-sizing: border-box;
 }
@@ -15,8 +19,13 @@ header {
     left: 0;
     top: 0;
     right: 0;
-    height: 4rem;
     padding: 0 .5rem;
+    overflow-y: hidden;
+    height: var(--header-height);
+    transition: height 400ms;
+}
+.topbar-height {
+    min-height: var(--header-height);
 }
 
 h1 {
@@ -29,7 +38,8 @@ h1 {
 
 /* REUSABLE CLASSES */
 .flex { display: flex; }
+.column { flex-direction: column; }
 .justify-between { justify-content: space-between; }
 .align-center { align-items: center; }
-.padded { padding: .5rem }
-.padded-2 { padding: 1rem }
+.padded { padding: .5rem; }
+.padded-2 { padding: 1rem; }
